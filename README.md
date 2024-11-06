@@ -12,7 +12,8 @@ Here is an example of the photos:
 
 The horizon should be measured from these pictures, here is an example, it is not exact:
 ![measurement](https://github.com/croghostrider/horizon/blob/main/image/sampel/window%20corner%20left%20-%20measurement.jpg?raw=true)
-I need the measurement as a CSV file, here the structure for the CSV file:
+I need the measurement as a CSV file.
+Here the structure for the file, it corresponds to the picture:
 |# |Azimuth |Elevation |
 |--|--|--|
 | 1 |-10|60|
