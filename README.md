@@ -11,19 +11,25 @@ Here is an example of the photos:
 |![window corner left](https://github.com/croghostrider/horizon/blob/main/image/sampel/window%20corner%20left.jpg?raw=true)|![window corner right](https://github.com/croghostrider/horizon/blob/main/image/sampel/window%20corner%20right.jpg?raw=true)  |
 
 The horizon should be measured from these pictures, here is an example, it is not exact:
-![measurement](https://github.com/croghostrider/horizon/blob/main/image/sampel//window%20stich%20%20measurement.jpg?raw=true)
-Everything shown in blue represents an unobstructed view of the sky. I need the measurement as a CSV file.
+![measurement](https://github.com/croghostrider/horizon/blob/main/image/sampel/window%20corner%20left%20-%20measurement.jpg?raw=true)
+I need the measurement as a CSV file, here the structure for the CSV file:
+|# |Azimuth |Elevation |
+|--|--|--|
+| 1 |-10|60|
+| 2 |20|55|
+| 3 |20|45|
+| 4 |80|30|
 
-Here are the project requirements:
+# the project requirements:
 
  - Created in Python
  - Generation and storage of the 200° camera's calibration data using a ChArUco board
  - Evaluation of the quality of the calibration images
  - Manual marking of the horizon in the image (maximum 180° azimuth)
  - Calculation of the horizon based on the marking
- - Export of the horizon measurement as CSV based on two images
+ - Export of the horizon measurement as CSV
 
-Optional:
+# Optional:
 
  - Automatic horizon detection in the image, with the option for manual correction
 
